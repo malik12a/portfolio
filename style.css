@@ -446,6 +446,43 @@ span{
     background: var(--second-bg-color);
 }
 
+/* Experience Section */
+.experience{
+  background: var(--bg-color);
+  padding-top: 6rem;
+}
+
+.experience-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.experience-item{
+  background: var(--second-bg-color);
+  padding: 2.5rem;
+  border-radius: 1.2rem;
+  border: .2rem solid rgba(255,255,255,0.03);
+}
+
+.experience-item h3{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.experience-item .date{
+  display: inline-block;
+  font-size: 1.4rem;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 1rem;
+}
+
+.experience-item p{
+  font-size: 1.6rem;
+  margin-top: .8rem;
+}
+
 .portfolio h2{
     margin-bottom: 4rem;
 }
